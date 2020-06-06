@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## EasyRP For Discord
 
-You can use the [editor on GitHub](https://github.com/theholykingmax/easyrp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+EasyRP (Custom Discord Rich Presence) https://github.com/theholykingmax/easyrp
+1. First you need to register a Rich Presence application with discord
+     - Go here https://discordapp.com/developers/applications/me
+     - Make a new application **The name of the app will be the main name for the rich presence**
+     - Enable rich presence for your app and add some assets
+2 Download the latest release of EasyRP from here https://github.com/Pizzabelly/EasyRP/releases 
+3 Edit the config file with the information from your newly registered app
+4 Run easyrp (it should open a cmd window)
+    - It *should* report errors from your config file (if there are any)
+5 Discord should show the game on your profile
+	- if not, add the exe as a game on discord and the file path should change to your presence
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/theholykingmax/easyrp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You can edit the config any time while the program is running to change the presence (make sure to save the file)
