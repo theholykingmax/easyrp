@@ -1,1 +1,1 @@
-To install go to https://github.com/theholykingmax/easyrp/relleases
+To install go to https://github.com/theholykingmax/easyrp/releases
